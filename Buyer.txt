@@ -1,0 +1,45 @@
+public class Customer {
+    String name;
+    int age;
+    String address;
+    double balance;
+    
+    public Customer(String name, int age, String address, double balance) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+        this.balance = balance;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public int getAge() {
+        return age;
+    }
+    
+    public String getAddress() {
+        return address;
+    }
+    
+    public double getBalance() {
+        return balance;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setAge(int age) {
+        this.age = age;
+    }
+    
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+}

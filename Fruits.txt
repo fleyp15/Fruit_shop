@@ -1,0 +1,33 @@
+public class Fruits {
+    String name;
+    String color;
+    int quantity;
+    double price;
+    
+    public Fruits(String name, String color, int quantity, double price) {
+        this.name = name;
+        this.color = color;
+        this.quantity = quantity;
+        this.price = price;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public String getColor() {
+        return color;
+    }
+    
+    public int getQuantity() {
+        return quantity;
+    }
+    
+    public double getPrice() {
+        return price;
+    }
+    
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+}

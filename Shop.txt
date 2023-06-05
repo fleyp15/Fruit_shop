@@ -1,0 +1,49 @@
+public class Shop {
+    String name;
+    String address;
+    String phoneNumber;
+    double totalRevenue;
+    
+    public Shop(String name, String address, String phoneNumber, double totalRevenue) {
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.totalRevenue = totalRevenue;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public String getAddress() {
+        return address;
+    }
+    
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+    
+    public double getTotalRevenue() {
+        return totalRevenue;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    
+    public void setTotalRevenue(double totalRevenue) {
+        this.totalRevenue = totalRevenue;
+    }
+    
+    public void registerSale(double amount) {
+        totalRevenue += amount;
+    }
+}
